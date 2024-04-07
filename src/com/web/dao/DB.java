@@ -10,7 +10,7 @@ public class DB
 {
 	private Connection con;
 
-	private PreparedStatement pstm;//PreparedStatement对象pstm 
+	private PreparedStatement pstm;//PreparedStatement对象pstm
 
 	private String user = "root";//数据库登录名
 
@@ -18,7 +18,7 @@ public class DB
 
 	private String className = "com.mysql.jdbc.Driver";//驱动程序对象
 
-	private String url = "jdbc:mysql://localhost:3306/graduation_db_dingcan?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false";
+	private String url = "jdbc:mysql://localhost:3306/graduation_71_db_dingcan?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false";
 // &amp表示&,amp为'',xml转义符   jdbc:mysql://localhost:3306/db_dingcan  db_dingcan表示数据库名称一定要对应
 	public DB()
 	{
